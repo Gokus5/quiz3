@@ -5,10 +5,25 @@ GET http://localhost:3000
 GET http://localhost:3000/bye
 
 ###
-POST http://localhost:3000/register
+POST http://localhost:3000/login
 Content-Type: application/json
 
 {
     "username":"harrvvin",
     "password":"123456"
 }
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username":"harrvvin",
+    "password":"123456",
+    "name": "hr",
+    "email":"harrvvin@utem.edu.my"  
+}
+
+
+
